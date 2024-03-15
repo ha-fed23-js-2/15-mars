@@ -31,7 +31,7 @@ function Calculator() {
     }
     return (
         <article>
-            <p>{value}</p>
+            <p>{value.toFixed(2)}</p>
             <button className="addOne" onClick={() => handleClick("addOne")}>+1</button>
             <button className="subOne" onClick={() => handleClick("subOne")}>-1</button>
             <button className="addFive" onClick={() => handleClick("addFive")}>+5</button>
