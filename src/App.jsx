@@ -1,13 +1,15 @@
 // import Calculator from "./Components/Calculator";
+// import Fruits from "./Components/Fruits";
+// import Orderly from "./Components/Orderly";
+import FavoriteColor from "./Components/FavoriteColor";
 
-import Fruits from "./Components/Fruits";
-import Orderly from "./Components/Orderly";
 
 function App() {
 
   return (
     <>
-      <Fruits />
+      <FavoriteColor />
+      {/* <Fruits />
       <Orderly value={1} />
       <Orderly value={2} />
       <Orderly value={3} />
@@ -20,7 +22,7 @@ function App() {
       <Orderly value={10} />
       <Orderly value={11} />
       ....
-      <Orderly value={20} />
+      <Orderly value={20} /> */}
     </>
   )
 }
