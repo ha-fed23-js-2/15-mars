@@ -1,11 +1,13 @@
 // import Calculator from "./Components/Calculator";
 
+import Fruits from "./Components/Fruits";
 import Orderly from "./Components/Orderly";
 
 function App() {
 
   return (
     <>
+      <Fruits />
       <Orderly value={1} />
       <Orderly value={2} />
       <Orderly value={3} />
